@@ -1,0 +1,89 @@
+/* Estilos generales del componente Simulador */
+.simulador-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .simulador-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+  }
+  
+  .simulador-description {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Estilos para el input de monto */
+  .simulador-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .simulador-input-label {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .simulador-input {
+    padding: 0.8rem 1.2rem;
+    font-size: 1.2rem;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .simulador-input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  }
+  
+
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .simulador-container {
+      padding: 1rem;
+    }
+    
+    .simulador-title {
+      font-size: 2rem;
+    }
+    
+    .productos-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Efecto de carga */
+  .loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin: 2rem 0;
+  }
+  
+  .error-message {
+    text-align: center;
+    color: #e74c3c;
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #fadbd8;
+    border-radius: 8px;
+  }
