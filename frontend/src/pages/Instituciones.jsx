@@ -29,7 +29,7 @@ export const Instituciones = () => {
     return (
         <div className="instituciones-page">
             <div className="instituciones-header">
-                <h1 className="instituciones-title">Instituciones Financieras</h1>
+                <h1 className="instituciones-title">Instituciones Financieras del Ecuador</h1>
                 <p className="instituciones-subtitle">Descubre las instituciones registradas en nuestra plataforma</p>
             </div>
 
