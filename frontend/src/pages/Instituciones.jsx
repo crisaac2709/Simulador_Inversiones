@@ -30,7 +30,7 @@ export const Instituciones = () => {
         <div className="instituciones-page">
             <div className="instituciones-header">
                 <h1 className="instituciones-title">Instituciones Financieras</h1>
-                <p className="instituciones-subtitle">Descubre las instituciones registradas en nuestra plataforma</p>
+                <p className="instituciones-subtitle">Descubre las instituciones registradas en nuestra plataforma de simulacion</p>
             </div>
 
             {loading && (
